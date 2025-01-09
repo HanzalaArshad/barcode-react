@@ -24,12 +24,12 @@ const BarcodeGen = () => {
 
   return (
     <div className="container d-flex justify-content-center align-items-center vh-100">
-      <div className="text-center w-50 bg-light p-4 rounded shadow">
+      <div className="text-center w-75 bg-light p-4 rounded shadow">
         <h1 className="mb-4">BarCode Generator</h1>
         <input
           type="text"
           className="form-control mb-3"
-          placeholder="Enter Value for Barcode Generator"
+          placeholder="Enter Value"
           value={text}
           onChange={(e) => setText(e.target.value)}
         />
